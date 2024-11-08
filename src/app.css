@@ -1,0 +1,45 @@
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -0.08em;
+}
+
+p>em {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+pre {
+  background-color: #f5f5f5;
+  font-size: 0.8rem;
+  overflow-x: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+
+a {
+  color: #006baa;
+  text-decoration: none;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  color: #006baa;
+  text-decoration: none;
+  border: 1px solid #006baa;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  font-size: 0.8rem;
+}
